@@ -20,7 +20,7 @@ const Search = ({ loadUser }: SearchProps) => {
    return (
       <div className={classes.search}>
          <h2>Buscar por um usuário</h2>
-         <p>Conheça seus melhores repositórios</p>
+         <p>Localize um perfil do GitHub</p>
          <div className={classes.search_container}>
             <input
                type='text'
