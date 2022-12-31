@@ -24,7 +24,7 @@ const Search = ({ loadUser }: SearchProps) => {
          <div className={classes.search_container}>
             <input
                type='text'
-               placeholder='Digite o nome do usuário'
+               placeholder='Digite o usuário'
                onChange={(e) => setUserName(e.target.value)}
                onKeyDown={handleKeyDown}
             />

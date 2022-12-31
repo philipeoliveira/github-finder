@@ -14,6 +14,8 @@
 }
 .search_container {
    display: flex;
+   justify-content: flex-end;
+   align-items: center;
    gap: 0.5rem;
 }
 .search_container input,
@@ -22,6 +24,9 @@
    border-radius: 3px;
    border: none;
    color: #2b3566;
+}
+.search_container input {
+   width: 100%;
 }
 .search_container button {
    background-color: #0e1129;
